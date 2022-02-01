@@ -14,6 +14,7 @@ un alumno, el alumno tiene nombre y apellido.
 list = []
 
 salir = False
+
 while salir !=True:
     print("-------------Menu-----------------")
     print("1.- Lista Alumnos")
@@ -31,15 +32,20 @@ while salir !=True:
         # muestro los alumnos
         print ("La lista de alumnos es: ")
         for alumno in list:
-            print (alumno)      
+            print (alumno)  
+            
     # opcion 2 agregar alumno
     elif option == 2:
         new_alumno = input("Ingrese nombre completo de alumno:")
         list.append(new_alumno)
     elif option == 3:
         quitar_alumno = input("Ingrese nombre del que sedea quitar:")
-        list.append(quitar_alumno)
+        list.remove(quitar_alumno)
+        print("Se quito de la lista a: ",quitar_alumno)
     elif option == 4:
         print("bye!!")
         salir = True
+    else:
+        print("Digite una opcion correcta")
+    
         
