@@ -34,8 +34,11 @@ while salir !=True:
             print (alumno)      
     # opcion 2 agregar alumno
     elif option == 2:
-        new_alumno = input("Ingrese nombre completo de alumno")
+        new_alumno = input("Ingrese nombre completo de alumno:")
         list.append(new_alumno)
+    elif option == 3:
+        quitar_alumno = input("Ingrese nombre del que sedea quitar:")
+        list.append(quitar_alumno)
     elif option == 4:
         print("bye!!")
         salir = True
