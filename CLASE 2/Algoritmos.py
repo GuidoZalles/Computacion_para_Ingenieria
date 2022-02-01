@@ -45,3 +45,13 @@ for num in range (1,11):
 for num in range (1,11):
     if num % 2 == 1:
         print (" los numeros impares son:", num)
+        
+
+## Ejercicio de clase 
+
+lista = [1,3,4,66,55,4]
+
+
+
+
+
