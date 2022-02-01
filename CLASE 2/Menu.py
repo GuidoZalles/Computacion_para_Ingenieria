@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb  1 08:56:02 2022
+
+@author: User
+"""
+
+"""
+Crear un programa que registre nuevos alumnos,liste los actuales alumno borre 
+un alumno, el alumno tiene nombre y apellido.
+"""
+# Crear una lista
+
+list = []
+
+salir = False
+while salir !=True:
+    print("-------------Menu-----------------")
+    print("1.- Lista Alumnos")
+    print("2.- Regitrar Alumno")
+    # pedir un nombre a borrar
+    print("3.- Quitar Alumno")
+    print("4.- Salir")
+    print("-----------------------------------")
+    
+    
+    option = int(input("Seleccione una opcio [1-2-3-4]:"))
+    
+    ## opcion 1 lista alumno
+    if option == 1:
+        # muestro los alumnos
+        print ("La lista de alumnos es: ")
+        for alumno in list:
+            print (alumno)      
+    # opcion 2 agregar alumno
+    elif option == 2:
+        new_alumno = input("Ingrese nombre completo de alumno")
+        list.append(new_alumno)
+    elif option == 4:
+        print("bye!!")
+        salir = True
+        
