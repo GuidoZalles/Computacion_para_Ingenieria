@@ -15,6 +15,7 @@ linea 2
 """
 # crear una constante
 
+"""
 NAME = 'Guido'
 FULL_NAME = 'Guido Zalles Choque'
 
@@ -51,8 +52,26 @@ a = int(input ("Ingrese a :"))
 b = int(input ("Ingrese b :"))
 
 print(f'resultado de suma a + b = {a+b}')
+"""
+# estructuras de control
 
-##
+anio = 2023
+
+if anio <=2022:
+    print ("Año es menor a 2022")
+elif anio >= 1989:
+    print ("Año es mayor a 1989")
+else:
+    print ("El año no cumple con los rangos de 1989 o 2022")
+
+# estructura de control While
+
+edad = 10
+
+while edad <= 17:
+    print(f'Menor de edad!!! {edad}')
+    edad = edad +1 # +1
+print (f'Mayor de edad {edad}')
 
 
 
