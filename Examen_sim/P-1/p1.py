@@ -9,10 +9,10 @@ Created on Mon Feb  7 07:28:51 2022
 
 frase = "hola"
 
-contador = 0
+cont = 0
 
 for letra in frase:
-    contador = contador + 1
+    cont = cont + 1
     
-print("La cantidad de letra es:", contador)
+print("La cantidad de letra es:", cont)
     

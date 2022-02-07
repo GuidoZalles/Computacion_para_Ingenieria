@@ -17,3 +17,4 @@ for num in list: #numeros pares
 for num in list: # numeros impares
     if num % 2 == 1:
         print("los numeros impares son: ", num)
+        
