@@ -15,7 +15,7 @@ linea 2
 """
 # crear una constante
 
-
+"""
 NAME = 'Guido'
 FULL_NAME = 'Guido Zalles Choque'
 
@@ -48,12 +48,17 @@ print (f'el nombre es: {nombre} y su edad {edad}')
 # entradas estandar
 
 telefono = input("Ingrese el numero telefonico: ")
+print(f'El usuario ingreso ==> {telefono}')
+
+# agregar valores
+print("Ingrese los valores de:")
 a = int(input ("Ingrese a: "))
 b = int(input ("Ingrese b: "))
 
 print(f'resultado de suma a + b = {a+b}')
-
 """
+
+
 # estructuras de control
 
 anio = 2023
@@ -70,10 +75,10 @@ else:
 edad = 10
 
 while edad <= 17:
-    print(f'Menor de edad!!! {edad}')
+    print("Menor de edad:", edad)
     edad = edad +1 # +1
-print (f'Mayor de edad {edad}')
-"""
+print (f'Mayor de edad: {edad}')
+
 
 
 

@@ -25,25 +25,25 @@ while salir !=True:
     print("-----------------------------------")
     
     
-    option = int(input("Seleccione una opcio [1-2-3-4]:"))
+    option = int(input("Seleccione una opcio [1-2-3-4]: "))
     
-    ## opcion 1 lista alumno
+    ## opcion 1 listar alumnos
     if option == 1:
         # muestro los alumnos
         print ("La lista de alumnos es: ")
         for alumno in list:
             print (alumno)  
             
-    # opcion 2 agregar alumno
+    # opcion 2 agregar otro alumno
     elif option == 2:
-        new_alumno = input("Ingrese nombre completo de alumno:")
+        new_alumno = input("Ingrese nombre completo del alumno: ")
         list.append(new_alumno)
     elif option == 3:
-        quitar_alumno = input("Ingrese nombre del que sedea quitar:")
+        quitar_alumno = input("Ingrese nombre del que sedea quitar: ")
         list.remove(quitar_alumno)
         print("Se quito de la lista a: ",quitar_alumno)
     elif option == 4:
-        print("bye!!")
+        print("Gracias por su preferencia, Adios..!!")
         salir = True
     else:
         print("Digite una opcion correcta")
