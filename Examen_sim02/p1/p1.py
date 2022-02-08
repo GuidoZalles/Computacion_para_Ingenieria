@@ -19,7 +19,7 @@ def contar_espacio(cadena):
     return espacio
 
 palabra = input("Ingrese un frase: ")
-print("la cantidad de espacios del parrafo es: ",contar_espacio(palabra) )
+print("la cantidad de espacios del parrafo es: ",contar_espacio(palabra))
         
     
     
