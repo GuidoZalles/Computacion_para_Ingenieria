@@ -4,6 +4,7 @@ Created on Tue Feb  8 09:59:46 2022
 
 @author: User
 """
+
 # Pregunta 3
 # crear una funcion que pueda contar el numero de palabras
 
