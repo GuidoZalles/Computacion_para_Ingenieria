@@ -10,4 +10,4 @@ class Atm:
     def __init__(self, ubicacion):
         self.ubicacion = ubicacion
     def showATM(self):
-        print("cajero ubicadoen,",self.ubicacion)
+        print("cajero ubicadoen en: ",self.ubicacion)

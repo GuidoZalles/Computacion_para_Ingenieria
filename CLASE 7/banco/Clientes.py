@@ -9,7 +9,7 @@ class Cliente:
     def __init__(self, nombre):
         self.nombre=nombre
     def showCliente(self):
-        print("show el cliente ",self.nombre)
+        print("Soy el cliente: ",self.nombre)
         
     
 
